@@ -1,0 +1,84 @@
+.home {
+  color: black;
+  height: 100vh;
+  margin-top: 80px;
+  background: radial-gradient(
+    50.28% 50.28% at 81.42% 49.72%,
+    #211722 31.25%,
+    #141218 100%
+  );
+  z-index: 1;
+  position: relative;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section::after,
+section::before {
+  background: url("../imgs/cloud.png") bottom no-repeat;
+  background-size: 200%;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.075;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-size: 64px;
+  margin-top: 0px;
+}
+
+span {
+  color: #eaebec;
+  font-size: 24px;
+}
+
+.z-index {
+  z-index: 3;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+}
+
+.color-purple {
+  color: #aa80ff;
+}
+
+.wallet-btn {
+  margin: 16px 0 8px 0px;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: center;
+  outline: none;
+  border: 2px solid rgb(250, 61, 47);
+  border-radius: 0 10px 0 10px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+
+.wallet-btn:hover {
+  background-color: rgb(250, 61, 47);
+  border: 2px solid rgb(250, 61, 47);
+}
+
+.img-fluid {
+  border-radius: 0px 30px;
+}

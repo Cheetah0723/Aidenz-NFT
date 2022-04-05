@@ -20,7 +20,7 @@
 
 section::after,
 section::before {
-  background: url("../imgs/cloud.png") bottom no-repeat;
+  background: url(../../public/assets/imgs/cloud.png) bottom no-repeat;
   background-size: 200%;
   bottom: 0;
   content: "";

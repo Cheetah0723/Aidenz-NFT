@@ -1,14 +1,13 @@
-import logo from "../imgs/logo.png"
 import { AiOutlineTwitter } from "react-icons/ai"
 import { FaDiscord } from "react-icons/fa"
 
 import "./navbar.css"
 
-export default function() {
+export default function () {
   return (
     <header>
       <a className="logo" href="/">
-        <img src={logo} />
+        <img src={"assets/imgs/logo.png"} />
       </a>
       <div className="headerMenu">
         <a className="headerMenu-btn kasumi" href="/">

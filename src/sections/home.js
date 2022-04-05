@@ -1,5 +1,5 @@
 import "./home.css"
-import gif from "../imgs/gif.gif"
+
 import { Container, Row, Col, Button, Image } from "react-bootstrap"
 
 export default function () {
@@ -19,7 +19,7 @@ export default function () {
             </div>
           </Col>
           <Col xs={12} md={6} className="z-index">
-            <Image src={gif} fluid />
+            <Image src={"assets/imgs/gif.gif"} fluid />
           </Col>
         </Row>
       </Container>

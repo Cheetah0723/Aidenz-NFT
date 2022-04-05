@@ -1,5 +1,5 @@
 import "./roadmap.css"
-import gif from "../imgs/gif.gif"
+
 import { Container, Row, Col, Button, Image } from "react-bootstrap"
 export default function () {
   const openText = (e) => {
@@ -16,8 +16,9 @@ export default function () {
     <section className="roadmap">
       <Container>
         <Row>
+          <h2>ROADMAP</h2>
+
           <Col xs={12} md={6} className="z-index">
-            <h2>ROADMAP</h2>
             <div className="content-lists">
               <div className="roadmap-content" onClick={(e) => openText(e)}>
                 <Button style={{ zIndex: -10 }}>01</Button>
@@ -110,7 +111,7 @@ export default function () {
             </div>
           </Col>
           <Col xs={12} md={6} className="z-index">
-            <Image src={gif} fluid />
+            <Image src={"assets/imgs/gif.gif"} fluid />
           </Col>
         </Row>
       </Container>

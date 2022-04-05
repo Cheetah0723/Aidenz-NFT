@@ -16,3 +16,57 @@
   z-index: 1;
   position: relative;
 }
+
+.team h2 {
+  color: #eaebec;
+  font-size: 36px;
+}
+
+.team-title {
+  color: #aa80ff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.member-pic {
+  width: 80%;
+  animation: glitch 0.3s linear;
+  opacity: 1;
+  transition-duration: 0.1s;
+  visibility: visible;
+  z-index: 2;
+}
+
+.member-name {
+  margin-top: 10px;
+  text-align: center;
+  color: #eaebec;
+  font-size: 36px;
+}
+
+.content-lists {
+  margin-top: 30px;
+}
+
+.member-name-btn {
+  font-size: 22px;
+  line-height: 32px;
+  color: #9494a3;
+  border: none;
+  background: transparent;
+  display: block;
+  padding: 5px 0 5px 0;
+}
+
+.member-name-btn:hover {
+  color: white;
+  border-bottom: 2px solid white;
+  margin-bottom: -2px;
+}
+
+.member-content {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}

@@ -17,7 +17,75 @@
   position: relative;
 }
 
+.roadmap .container {
+  display: block;
+  padding-top: 100px;
+  height: auto;
+}
+
+.row {
+  width: 100%;
+  padding: 0 50px;
+}
+
 .roadmap-content {
   display: flex;
   align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #5500ff;
+  font-size: 18px;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.roadmap-content:hover {
+  background-color: transparent;
+  border: none;
+  color: #5500ff;
+}
+
+.roadmap-content button {
+  background-color: transparent;
+  border-radius: 0 8px;
+  color: black;
+  margin-right: 15px;
+  border: 1px solid #5500ff;
+  font-weight: bold;
+}
+
+.roadmap-content p {
+  font-weight: bold;
+}
+
+.roadmap-content:hover button {
+  background-color: #5500ff;
+  border: 1px solid #5500ff;
+  color: white !important;
+}
+
+.highlight-number {
+  background-color: #5500ff !important;
+  color: white !important;
+}
+
+.roadmap-horizontal-separator {
+  border-left: 2px solid #50f;
+  height: 8px;
+  margin-left: 20px;
+}
+
+.paragraph-large {
+  border-left: 2px solid #50f;
+  margin-left: 20px;
+  padding-left: 36px;
+  margin-bottom: 10px;
+  transition: max-height 0.2s ease-out;
+  overflow: hidden;
+  color: #39123d;
+  font-size: 18px;
+}
+
+.highlight {
+  color: #ff2b2d;
 }

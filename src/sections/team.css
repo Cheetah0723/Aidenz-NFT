@@ -1,0 +1,18 @@
+.team {
+  color: black;
+  clip-path: polygon(
+    90% 64px,
+    95% 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 0,
+    5% 0,
+    10% 64px
+  );
+  margin-top: -140px;
+  padding: 152px 36px;
+  background-color: #231824;
+  z-index: 1;
+  position: relative;
+}
